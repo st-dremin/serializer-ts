@@ -14,6 +14,10 @@
 		"ts models",
 		"TypeScript models"
 	],
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/st-dremin/serializer-ts.git"
+	},
 	"author": "StanislavDremin",
 	"main": "./dist/serializer.umd.cjs",
 	"module": "./dist/serializer.js",
