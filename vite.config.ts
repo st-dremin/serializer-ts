@@ -9,6 +9,12 @@ export default defineConfig({
 			name: 'serializer',
 			fileName: 'serializer',
 		},
+		minify: true,
+		target: 'esnext',
+		emptyOutDir: true,
 	},
 	plugins: [dts()],
+	esbuild: {
+		exclude: ['./src/__tests__/*']
+	}
 });

@@ -1,7 +1,7 @@
 import { faker } from "@faker-js/faker";
-import { Cast, ModelDecorator } from "../Decorators";
-import { CastAttribute } from "../Casts/CastAttribute";
-import { BaseEntity } from "../BaseEntity";
+import { Cast, ModelDecorator } from "../src";
+import { CastAttribute } from "../src";
+import { BaseEntity } from "../src";
 
 
 class DateCast extends CastAttribute {

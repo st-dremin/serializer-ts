@@ -1,7 +1,7 @@
 {
 	"name": "@stdremin/serializer",
 	"private": false,
-	"version": "0.1.0",
+	"version": "0.1.1",
 	"type": "module",
 	"description": "Простой datamaper для описания и конвертации объектов в моделли для ts",
 	"scripts": {
